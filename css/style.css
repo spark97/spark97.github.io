@@ -770,19 +770,19 @@ p {
 	box-shadow: inset 0 0 0 2px #4099ff;
 } 
 /* google plus */
-.icon-border.googleplus::before {
-	-webkit-box-shadow: inset 0 0 0 48px #d34836;
-	-moz-box-shadow: inset 0 0 0 48px #d34836;
-	-o-box-shadow: inset 0 0 0 48px #d34836;
-	-ms-box-shadow: inset 0 0 0 48px #d34836;
-	box-shadow: inset 0 0 0 48px #d34836;
+.icon-border.github::before {
+	-webkit-box-shadow: inset 0 0 0 48px black;
+	-moz-box-shadow: inset 0 0 0 48px black;
+	-o-box-shadow: inset 0 0 0 48px black;
+	-ms-box-shadow: inset 0 0 0 48px black;
+	box-shadow: inset 0 0 0 48px black;
 } 
-.icon-border.googleplus:hover::before {
-	-webkit-box-shadow: inset 0 0 0 2px #d34836;
-	-moz-box-shadow: inset 0 0 0 2px #d34836;
-	-o-box-shadow: inset 0 0 0 2px #d34836;
-	-ms-box-shadow: inset 0 0 0 2px #d34836;
-	box-shadow: inset 0 0 0 2px #d34836;
+.icon-border.github:hover::before {
+	-webkit-box-shadow: inset 0 0 0 2px black;
+	-moz-box-shadow: inset 0 0 0 2px black;
+	-o-box-shadow: inset 0 0 0 2px black;
+	-ms-box-shadow: inset 0 0 0 2px black;
+	box-shadow: inset 0 0 0 2px black;
 } 
 /* dribbble */
 .icon-border.dribbble::before {
