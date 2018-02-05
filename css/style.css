@@ -540,7 +540,7 @@ body .buttons-wrapper .slider > li {
 	background:#000;  
 }
 body .buttons-wrapper .slider > li:nth-child(1) {
-	background: url(../images/dp.jpg)no-repeat center center;
+	background: url(../images/dp.jpg)no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -672,7 +672,7 @@ ul.address li a:hover {
 }
 .profile-grids i.fa {
     font-size: 1.5em;
-    color: #37110bf7;
+    color: #f78800;
     border: 1px solid;
     padding: .5em;
     border-radius: 15px 0;
