@@ -1078,7 +1078,7 @@ a.pa_italic:focus {
 .contact p a:hover{
     color: #f58700;
 }
-.faddress-w3left:after {
+/*.faddress-w3left:after {
     content: '';
     width: 1px;
     height: 100%;
@@ -1086,7 +1086,7 @@ a.pa_italic:focus {
     position: absolute;
     top: 0;
     right: -17px;
-} 
+} */
 /*-- input-effect --*/
 .contact-wthree-right input[type="text"],.contact-wthree-right input[type="email"]{
     width: 100%;
@@ -1359,13 +1359,13 @@ h3.agileits-title {
 .faddress-w3right {
     float: none;
 }
-.faddress-w3left:after { 
+/*.faddress-w3left:after { 
     width: 100%;
     height: 1px; 
     top: inherit;
     right: 0;
     bottom: 0;
-}
+}*/
 .faddressw3-agileinfo {
     padding: 1em;
     text-align: center;
