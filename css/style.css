@@ -6,11 +6,53 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Roboto', monospace; 
 	background: #181B27;
 	height: 100%;
 	width: 100%;  
 }  
+
+.dp{
+	border-radius : 50%
+}
+
+.typed_wrap h2 {
+	display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
 body a{
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -540,7 +582,6 @@ body .buttons-wrapper .slider > li {
 	background:#000;  
 }
 body .buttons-wrapper .slider > li:nth-child(1) {
-	background: url(../images/dp.jpg)no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -626,7 +667,6 @@ body .buttons-wrapper .slider > li:nth-child(4) {
     font-weight: 200;
 }
 .banner-w3lsinfo {
-    background: url(../images/dott.png)repeat 0px 0px;
     padding: 3em 0 7.2em;
 }
 .header-w3left img {
@@ -637,7 +677,6 @@ body .buttons-wrapper .slider > li:nth-child(4) {
     padding-left: 3em;
 }
 .header-imgtext-w3ls {
-    border: 1px solid #fff;
     text-align: center;
     padding: 1.5em 1em;
 }
@@ -1496,5 +1535,9 @@ ul.address li {
 .contact-wthree-right input[type="text"], .contact-wthree-right input[type="email"] { 
     padding: .6em 0.8em; 
 }
+
+
+
+
 }
 /*-- //responsive-design --*/
