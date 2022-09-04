@@ -1,104 +1,219 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Harshit Shah</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Simple CV Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!-- Custom Theme files -->
-	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
-	<link href="css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons -->   
-	<link rel="stylesheet" href="css/swipebox.css">    <!-- swipebox -->   
-	<!-- //Custom Theme files --> 
-	<!-- js -->
-	<script src="js/jquery-2.2.3.min.js"></script>  
-	<!-- //js -->
-	<!-- web-fonts -->   
-	<link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<!-- //web-fonts -->
-</head>
-<body>  
-	<!-- main --> 
-	<div class="buttons-wrapper"> 
-		<ul class="slider">
-			<li class="agileits"> 
-				<!-- banner -->
-				<div class="banner">
-					<div class="banner-w3lsinfo">
-						<h2 style="color:#ffffff;font-family:'Roboto Mono',monospace">Hello, I am Harshit</h2>
-						<div class="container">
-							<div class="col-md-4 header-w3left">
-								<img class="dp" src="images/me.jpg" alt="Harshit Shah" />
-								<div class="header-imgtext-w3ls">
-									<h1 style="color:#ffffff;font-family:'Roboto Mono',monospace">Harshit Shah</h1> 
-									
-								</div>
-							</div>
-							<div class="details col-md-8" style="padding:5% 0 0 10%">
-							<h3 style="color:#ffffff;font-family:'Roboto Mono',monospace"> I am a Software Developer<br><br> <a href="https://docs.google.com/document/d/1ORylmx_hsNyrOEbKBuvf1ttenaijs_kddTsYUnrkWuc/edit?usp=sharing" target="_blank"><u>Here</u></a> is my resume</h3>
-							<div class="social-wthree-icons">
-								<br><br>
-									<h3 style="color:#ffffff;font-family:'Roboto Mono',monospace">Connect via social profiles </h3>									
-									<ul style="padding-left: 20%">
-										<li><a href="https://www.linkedin.com/in/harshit97/" target="_blank" class="fa fa-linkedin icon icon-border facebook"> </a></li> 												
-										<!--<li><a href="https://github.com/spark97" target="_blank" class="fa fa-github icon icon-border github"> </a></li>-->									
-										<li><a href="https://www.facebook.com/harshit.shah.507" target="_blank" class="fa fa-facebook icon icon-border facebook"> </a></li>
-										<li><a href="https://twitter.com/harshit_1797" target="_blank" class="fa fa-twitter icon icon-border twitter"> </a></li>
-									</ul>
-							</div> 
-							<div style="padding: 10% 0 0 0" class="row">
-								<div class="col-md-4 offset-md-2" >
-							        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="84aaae8e-7af3-496e-b779-3aaf95bef22d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-								</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- //banner --> 
-			</li>	
-			<!-- //contact -->  
-		</li> 
-	</ul>  
-</div>	
-<!-- //main -->  
-<!-- swipe box js -->
-<script src="js/jquery.swipebox.min.js"></script> 
-<script type="text/javascript">
-jQuery(function($) {
-	$(".swipebox").swipebox();
-});
-</script> 
-<!-- //swipe box js --> 	
-<!-- Skill Bar js --> 
-<script src="js/skill.bars.jquery.js"></script> 
-<script> 
-$(document).ready(function(){
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Harshit Shah</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+	<!-- Custom Favicon -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body id="top">
 
-	$('.skillbar').skillBars({
-		from: 0,
-		speed: 4000, 
-		interval: 100,
-		decimals: 0,
-	});
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
 
-}); 
-</script> 
-<!-- //End Skill Bar js --> 
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/bootstrap.js"></script>
-	<script src="js/typed.js"></script>
-</body>
+
+	  	<!-- ==========================
+        HEADER SECTION 
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            
+		  <!-- Header Image -->
+          <section class="hero" id="hero" style="background-color: black">
+            <div class="container">
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row">
+                <div class="col-md-2 col-md-offset-1 inner" style="z-index: 10">
+                  <h1 class="animated fadeInDown">
+                    Ha<span style="color:#E04343;">rshit</span><br/>
+                    <span>Sh<span style="color:#FFE800">ah</span></span>
+                  </h1><!-- Title -->
+                  <h3><span>Software Engineer</span></h3><!-- Text Rotator -->
+                </div>
+                  <div class="col-md-2 col-md-offset-2" style="padding-left: 0px">
+                 <img src="img/header-bg.jpg" height="500px" width="auto" />
+              </div>
+              </div>
+             
+			  <!-- Learn More Button -->
+             <!--  <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p style="color: black">SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div> -->
+            </div>
+          </section>
+		  <!-- Header Image End -->
+        </header>
+		<!-- ==========================
+        HEADER SECTION END  
+        =========================== -->
+		
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION  
+        =========================== -->
+        <section class="intro text-center section-padding color-bg" id="about">
+          <div class="container">
+		    <!-- WELCOME TEXT -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
+				<!-- about / welcome text -->
+                <p>I am a software engineer at Uber having 4 years of experience in building and breaking scalable products. Graduated from NIT Allahabad with a Bachelors Of Technology degree in Computer Science And Engineering, I have worked with Uber, Flipkart and JP Morgan Chase & Co. </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+<!-- ==========================
+        SERVICE SECTION 
+        =========================== -->
+        <section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Professional Experience</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          <!-- Service Box 1 -->
+                  <div class="col-md-4 wp2 item">
+                    <div background-color="white">
+                      <img src="img/uber.png" height="150px" width="150px"></img><!-- Icon -->
+                    </div>
+                    <h2>UBER</h2><!-- Title -->
+                    <p>Software Engineer 2</p><!-- Description -->
+                  </div>
+          <!-- Service Box 2 -->
+                   <div class="col-md-4 wp2 item">
+                    <div background-color="white">
+                      <img src="img/flipkart.png" height="150px" width="150px"></img><!-- Icon -->
+                    </div>
+                    <h2>FLIPKART</h2><!-- Title -->
+                    <p>Software Development Engineer 2</p><!-- Description -->
+                  </div>
+          <!-- Service Box 3 -->
+                    <div class="col-md-4 wp2 item">
+                    <div background-color="white">
+                      <img src="img/jpmc.png" height="150px" width="150px"></img><!-- Icon -->
+                    </div>
+                    <h2>JP Morgan Chase & Co.</h2><!-- Title -->
+                    <p>Associate Software Engineer</p><!-- Description -->
+                  </div>
+          </div>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+		
+		
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact" style="background-color: #E04343;">
+		  <!-- To Top Button -->
+          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Lets Connect</h1>
+              </div>
+            </div>
+			<br>
+			<!-- Social Buttons - use font-awesome, past in what you want -->
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+                  <li><a href="https://twitter.com/shahharshit1797" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
+                  <li><a href="https://www.facebook.com/harshit.shah.507" target="_blank" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+				          <li><a href="https://www.linkedin.com/in/harshit97/" target="_blank" class="social-btn"><i class="fa fa-linkedin"></i></a></li><!-- linkedin -->
+                  <li><a href="https://www.instagram.com/_harshit.shah_/" target="_blank" class="social-btn"><i class="fa fa-instagram"></i></a></li><!-- instagram -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+		
+		
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/waypoints.min.js"></script>
+    <!-- classie.js -->
+	<script src="js/classie.js"></script>
+    <!-- FlexSlider -->
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+	<!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+	<!-- Text Rotator -->
+	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+	<!-- Lightbox.js -->
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+    <!-- Google Maps --> 
+	<!-- Theme JavaScript Core -->
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+
+	<!-- GOOGLE MAPS DATA -->
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script>
+	
+    </body>
 </html>
